@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './style.css';
 
-export const DialogBox = ({ onOk, onCancel }) => {
+export const WarningDialog = ({ onOk, onCancel }) => {
   return (
     <div className="dialog-box">
       <Container>
