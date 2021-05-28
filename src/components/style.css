@@ -1,0 +1,9 @@
+.dialog-box {
+  position: absolute;
+  border: 5px solid lightgray;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 10px 5px 5px lightgray;
+}
