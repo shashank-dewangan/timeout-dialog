@@ -9,8 +9,10 @@ export default class Home extends Component {
   };
 
   componentDidMount() {
+    document.addEventListener('mousemove', this.resetTimer);
     document.addEventListener('mousedown', this.resetTimer);
     document.addEventListener('keypress', this.resetTimer);
+    document.addEventListener('onclick', this.resetTimer);
     this.timer();
     this.autoLogout();
   }
